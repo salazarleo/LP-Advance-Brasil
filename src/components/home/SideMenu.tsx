@@ -1,5 +1,4 @@
 import { X } from "lucide-react";
-import { WHATSAPP_URL } from "@/lib/constants";
 
 const menuLinks = [
   { label: "HOME", target: "home" },
@@ -66,17 +65,6 @@ export default function SideMenu({ open, onClose }: SideMenuProps) {
             </button>
           ))}
         </nav>
-
-        <div className="px-6 pb-8 pt-4">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="flex w-full items-center justify-center rounded-full bg-brand-red px-6 py-4 text-xs font-bold uppercase tracking-[0.18em] text-white transition-colors hover:bg-white hover:text-brand-black"
-          >
-            Solicitar orçamento
-          </a>
-        </div>
       </aside>
     </>
   );
