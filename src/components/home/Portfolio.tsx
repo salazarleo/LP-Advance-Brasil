@@ -68,7 +68,9 @@ export default function Portfolio() {
                 src={item.imagem}
                 alt={`${item.titulo} — ${item.categoria}`}
                 loading="lazy"
-                className="aspect-[4/3] w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.04]"
+                className={`aspect-[4/3] w-full object-center transition-transform duration-700 ease-out group-hover:scale-[1.04] ${
+                  item.categoria === "TOTENS" ? "object-contain" : "object-cover"
+                }`}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent opacity-80 transition-opacity duration-500 group-hover:opacity-100" />
               <div className="absolute inset-x-0 bottom-0 p-4 md:p-5">
@@ -83,12 +85,6 @@ export default function Portfolio() {
           ))}
         </Stagger>
 
-        {/* Nota editorial: imagens demonstrativas */}
-        <Reveal variant="fade" delay={100} duration={600}>
-          <p className="mt-8 text-xs font-light text-neutral-400">
-            Imagens demonstrativas. Conheça nossos projetos reais pelo WhatsApp.
-          </p>
-        </Reveal>
       </div>
 
       {/* Lightbox */}
@@ -100,7 +96,9 @@ export default function Portfolio() {
               <img
                 src={selected.imagem}
                 alt={`${selected.titulo} — ${selected.categoria}`}
-                className="aspect-[4/3] max-h-[70vh] w-full object-cover"
+                className={`aspect-[4/3] max-h-[70vh] w-full object-center ${
+                  selected.categoria === "TOTENS" ? "object-contain" : "object-cover"
+                }`}
               />
               <div className="flex items-end justify-between gap-4 px-6 py-5">
                 <div>
@@ -111,9 +109,6 @@ export default function Portfolio() {
                     {selected.titulo}
                   </p>
                 </div>
-                <span className="hidden text-xs font-light text-white/40 sm:block">
-                  Imagem demonstrativa
-                </span>
               </div>
             </>
           )}
