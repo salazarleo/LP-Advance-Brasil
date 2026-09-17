@@ -28,7 +28,7 @@ export default function Hero() {
           
           <Reveal variant="fade-up" duration={700}>
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/80">
-              Advance Brasil · Comunicação Visual
+              DESDE 2019, CRIANDO IDENTIDADE
             </p>
           </Reveal>
 
@@ -42,7 +42,7 @@ export default function Hero() {
 
           <Reveal variant="fade-up" delay={240} duration={800}>
             <p className="mt-7 max-w-xl text-base font-light leading-relaxed text-white/80 md:text-lg">
-              Projetos de comunicação visual sob medida que destacam sua marca,
+              Projetos sob medida que destacam sua marca,
               transmitem autoridade e valorizam o seu negócio.
             </p>
           </Reveal>
