@@ -27,6 +27,5 @@ export const PORTFOLIO_CATEGORIES = [
   "TOTENS",
   "FACHADAS",
   "LETREIROS",
-  "REVESTIMENTOS",
   "LUMINOSOS",
 ] as const;

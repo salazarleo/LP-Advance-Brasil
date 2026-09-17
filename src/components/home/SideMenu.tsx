@@ -3,11 +3,9 @@ import { WHATSAPP_URL } from "@/lib/constants";
 
 const menuLinks = [
   { label: "HOME", target: "home" },
-  { label: "QUEM SOMOS?", target: "quem-somos" },
   { label: "NOSSO PORTFÓLIO", target: "portfolio" },
   { label: "COMO FUNCIONA", target: "como-funciona" },
   { label: "FAÇA SEU ORÇAMENTO", target: "orcamento" },
-  { label: "CONTATO", target: "contato" },
 ];
 
 interface SideMenuProps {

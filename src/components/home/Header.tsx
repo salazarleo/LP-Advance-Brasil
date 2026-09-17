@@ -29,7 +29,7 @@ export default function Header() {
             <img
               src="/advance-logo.png"
               alt="Advance Brasil - Comunicação Visual"
-              className="h-10 w-10 object-contain md:h-12 md:w-12"
+             className="h-16 w-16 object-contain md:h-40 md:w-40"
             />
           </a>
 
@@ -46,15 +46,7 @@ export default function Header() {
               <Instagram size={17} className="hidden sm:block" />
             </a>
 
-            <a
-              href={WHATSAPP_URL}
-              target="_blank"
-              rel="noreferrer"
-              className="rounded-full bg-brand-red px-4 py-2.5 text-[10px] font-bold uppercase tracking-[0.14em] text-white transition-colors hover:bg-white hover:text-brand-black sm:px-6 sm:py-3 sm:text-[11px] sm:tracking-[0.18em]"
-            >
-              <span className="hidden sm:inline">Solicite um orçamento</span>
-              <span className="sm:hidden">Orçamento</span>
-            </a>
+      
 
             <button
               onClick={() => setMenuOpen((v) => !v)}

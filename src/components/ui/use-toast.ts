@@ -19,7 +19,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     categoria: "TOTENS",
     titulo: "Totem corporativo",
-    imagem: "/images/portfolio/totem-01.jpg",
+    imagem: "/images/portfolio/totem-1.png",
   },
   {
     categoria: "TOTENS",
@@ -29,12 +29,32 @@ export const portfolioItems: PortfolioItem[] = [
   {
     categoria: "FACHADAS",
     titulo: "Fachada comercial",
-    imagem: "/images/portfolio/fachada-01.jpg",
+    imagem: "/images/portfolio/fachada-01.jpeg",
   },
   {
     categoria: "FACHADAS",
     titulo: "Fachada corporativa",
     imagem: "/images/portfolio/fachada-02.jpg",
+  },
+    {
+    categoria: "FACHADAS",
+    titulo: "Fachada corporativa",
+    imagem: "/images/portfolio/fachada-03.jpg",
+  },
+     {
+    categoria: "FACHADAS",
+    titulo: "Fachada corporativa",
+    imagem: "/images/portfolio/fachada-04.jpeg",
+  },
+     {
+    categoria: "FACHADAS",
+    titulo: "Fachada corporativa",
+    imagem: "/images/portfolio/fachada-05.jpeg",
+  },
+     {
+    categoria: "FACHADAS",
+    titulo: "Fachada corporativa",
+    imagem: "/images/portfolio/fachada-06.jpeg",
   },
   {
     categoria: "LETREIROS",
