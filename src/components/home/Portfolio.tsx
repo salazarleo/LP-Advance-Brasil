@@ -56,7 +56,7 @@ export default function Portfolio() {
         </Reveal>
 
         {/* Grid */}
-        <Stagger className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 md:gap-6">
+        <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 md:gap-6">
           {filtered.map((item) => (
             <button
               key={item.imagem}
@@ -83,7 +83,7 @@ export default function Portfolio() {
               </div>
             </button>
           ))}
-        </Stagger>
+        </div>
 
       </div>
 
