@@ -1,2 +1,5 @@
 allowBuilds:
   esbuild: true
+minimumReleaseAge: 86400
+minimumReleaseAgeExclude:
+  - vite-plugin-enter-dev@0.0.15
